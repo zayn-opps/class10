@@ -60,4 +60,46 @@ console.log("joy joga ",joy_joga_gf+valu5);
 
 
 
+//all mathmatic
+let num=50;
+num=num+4;
+num=num-4;
+num=num*5;
+console.log("total",num)
 
+//++kaj
+let upay=5000;
+upay+=50;
+console.log("upay",upay);
+//name
+let fristNAME="sajal";
+let lastNAME="ghosh";
+let sureNAEM=fristNAME+" "+lastNAME;
+console.log("surename:",sureNAEM);
+//string are number
+
+let valu2=20;
+let valu3="50";
+let change_valu_string_to_number=parseInt(valu3);
+console.log(valu2+change_valu_string_to_number);
+
+//if else 
+
+
+let s1=25;
+let s2=12;
+if(s1==s2){
+    console.log("wellcome to home ")
+}
+else{
+    console.log("get out ")
+}
+//password&gamil
+let password=125608;
+let user="gandu@gmail.com";
+if (125608==password&&"gandu@gmail.com"==user){
+    console.log("wellcome home ")
+}
+else{
+    console.log("worng password");
+}
